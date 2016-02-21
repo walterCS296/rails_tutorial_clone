@@ -4,5 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   
   def hello
-    render text: "<h1>Hello, World!</h1><p>This is the initial deployment of <i>sample_app</i></p>
+    render text: "<h1>Hello, World!</h1><p>This is the initial deployment of <i>sample_app</i></p>"
+  end
 end
